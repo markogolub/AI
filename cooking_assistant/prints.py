@@ -11,7 +11,7 @@ def print_resolution_data(resolution, goal):
     if resolution is not False:
         print((' v '.join(goal)), "is true")
     else:
-        print((' v '.join(goal)), "is unkown")
+        print((' v '.join(goal)), "is unknown")
 
 # Indexes and prints an input clauses and a negated goal.
 # Returns the last index.
