@@ -11,4 +11,4 @@ def resolution_interactive(clauses, goal):
     if resolution is not False:
         print((' v '.join(goal)), "is true")
     else:
-        print((' v '.join(goal)), "is unkown")
+        print((' v '.join(goal)), "is unknown")
